@@ -1,0 +1,29 @@
+.Auth {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.errorMessage {
+    color: #721C24;
+    background-color: #F8D7DA;
+    border: 1px solid #721C24;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+
+    .errorMessage {
+        width: 500px;
+    }
+}
